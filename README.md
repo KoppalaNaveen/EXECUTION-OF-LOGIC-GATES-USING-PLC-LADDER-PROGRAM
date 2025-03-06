@@ -1,10 +1,10 @@
 # EXECUTION-OF-LOGIC-GATES-USING-PLC-LADDER-PROGRAM
 
 
- # NAME :
- # REGISTER NUMBER :
- # DEPARTMENT 
- # YEAR 
+ # NAME : KOPPALA NAVEEN
+ # REGISTER NUMBER : 212223100023
+ # DEPARTMENT : CSE(CS)
+ # YEAR : 2
 
  
 # Aim:
@@ -49,7 +49,60 @@ XOR Gate:
 Function: Outputs HIGH when an odd number of inputs are HIGH.
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.
 # Truth Tables:
- 
+
+**AND Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   1    |
+
+**OR Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   1    |
+
+**NOT Gate:**
+
+| Input | Output |
+|-------|--------|
+|   0   |   1    |
+|   1   |   0    |
+
+**NAND Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   1    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   0    |
+
+**NOR Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   1    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   0    |
+
+**XOR Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   0    |
+
+
 # Procedure:
 Setup the PLC Programming Environment:
 
@@ -79,7 +132,15 @@ XOR Gate: The output should light up when exactly one input is HIGH.
 
 
 # SIMULATION RESULTS 
+![image](https://github.com/user-attachments/assets/507275fd-f96c-4982-ba06-04ffe10cc63a)
 
+![image](https://github.com/user-attachments/assets/c06c327c-bd24-4dcd-bfd0-8524ffb28330)
+
+![image](https://github.com/user-attachments/assets/a9928085-4caf-4367-aa7b-44a1edcf2971)
+
+![image](https://github.com/user-attachments/assets/825a86ae-cb66-4319-9813-cf888b27e30e)
+
+![image](https://github.com/user-attachments/assets/57d59fbf-4fa5-4838-b201-5420e700757b)
 
 #Results:
 The ladder logic programs for each logic gate were successfully implemented and simulated.
